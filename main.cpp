@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <stdlib.h>
 #include <string.h>
-#include <memory>
 
 using namespace std;
 
@@ -16,14 +15,13 @@ public:
     Data()
     {
         this->p = new int[100];
-        cout << "构造Data" <<endl;
     }
     virtual ~Data()
     {
         delete[] this->p;
-        cout << "析构Data" <<endl;
     }
     int *p = nullptr;
+    int nref = 1;
 };
 
 class A
@@ -31,7 +29,7 @@ class A
 public:
     A()
     {
-        this->pdata.reset(new Data());
+        this->p = new Data();
     }
 
     // 深拷贝实现，对于实例对象的复制，复制一份p的副本
@@ -43,12 +41,38 @@ public:
     //     memcpy(this->p, other.p, sizeof(int) * 100);
     // }
 
+    A(const A &other)
+    {
+        *this = other;
+        this->p->nref++;
+    }
+
+
+    virtual ~A()
+    {
+        // 当最后一个应用实例释放时，删除p指针
+        // 只要存在其它引用，释放都是不合适的
+        // 问题在于，如何判断最后执行的析构函数是最后一个引用呢？
+        // 引用计数， ref
+
+
+        if (this->p->nref == 1)
+        {   
+            cout << "nref: " <<this->p->nref<< endl;
+            delete this->p;
+        }
+        else
+        {
+            cout << "nref: " <<this->p->nref<< endl;
+            this->p->nref--;
+        }
+
+        cout << "virtual ~A()" << endl;
+    }
 
     int a = 124;
     int b = 234;
-
-    shared_ptr<Data> pdata;
-
+    Data *p = nullptr;
 };
 
 int main()
@@ -59,10 +83,10 @@ int main()
 
     
     
-    delete a;
+    // delete a;
 
-    // cout << a->a << endl;
-    cout << b.pdata.get() << endl;
+    cout << a->a << endl;
+    cout << b.a << endl;
 
     return 0;
 }

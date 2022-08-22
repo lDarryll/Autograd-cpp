@@ -147,6 +147,5 @@ int main()
     cout << a.gradient() << endl;
     // cout << a.gradient() << endl;
 
-
     return 0;
 }

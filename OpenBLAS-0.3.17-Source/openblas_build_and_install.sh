@@ -10,4 +10,4 @@ make all -j16 && make install -j16
 
 cd ../../
 rm -rf OpenBLAS-0.3.17
-rm -f OpenBLAS-0.3.17.tar.gz
+# rm -f OpenBLAS-0.3.17.tar.gz

@@ -128,6 +128,18 @@ class Multiply : public Expression
         }
 };
 
+
+Expression operator* (float left, const Expression& right)
+{
+    return Multiply(Scalar(left), right);
+};
+
+Expression operator* (const Expression& left, float right)
+{
+    return Multiply(left, Scalar(right));
+};
+
+
 int main()
 {
     // 1. 实现计算图的统计
@@ -141,11 +153,12 @@ int main()
     // a uto loss = (a.power() - x).power();
 
     // cout << a.forward() <<endl;
-    auto exp = Multiply(a, Scalar(5.0f));
+    auto exp = 5.0f * a * 2.0;
     cout << exp.forward() <<endl;
     exp.backward();
     cout << a.gradient() << endl;
     // cout << a.gradient() << endl;
+
 
     return 0;
 }

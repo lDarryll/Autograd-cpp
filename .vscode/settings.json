@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#173403",
+        "titleBar.activeBackground": "#214905",
+        "titleBar.activeForeground": "#F1FEE8"
+    },
+    // "C_Cpp.errorSquiggles": "Enabled",
+    // "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}

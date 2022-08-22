@@ -1,0 +1,1759 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Aug 22 14:52:32 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/zengsheng/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 16)
+cu_srcs := 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /data/zengsheng/works/c++/algorithm_c/Autograd-cpp
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/zengsheng/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
+# makefile (from 'objs/main.cpp.mk', line 1)
+MAKEFILE_LIST :=  Makefile objs/main.cpp.mk
+# makefile (from 'Makefile', line 40)
+library_paths := -L/data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1017/bus
+# makefile (from 'Makefile', line 10)
+cpp_srcs := src/main.cpp
+# makefile (from 'Makefile', line 50)
+link_flags := -pthread -fopenmp -Wl,-rpath='$$ORIGIN' -L/data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib -lstdc++ -ldl -lopenblas -Wl,-rpath=/data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib
+# makefile (from 'Makefile', line 19)
+cu_mk := 
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/zengsheng
+# environment
+SSH_CONNECTION = 192.168.2.221 49230 192.168.2.19 22
+# environment
+PATH = /home/zengsheng/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/home/zengsheng/anaconda3/bin:/home/zengsheng/anaconda3/condabin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1017
+# makefile (from 'Makefile', line 22)
+link_sys := stdc++ dl  openblas
+# makefile (from 'Makefile', line 13)
+cpp_mk := objs/main.cpp.mk
+# makefile (from 'Makefile', line 38)
+run_paths := -Wl,-rpath=/data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib
+# environment
+CONDA_PREFIX = /home/zengsheng/anaconda3
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /home/zengsheng/anaconda3/bin/conda
+# makefile (from 'Makefile', line 5)
+srcdir := src
+# environment
+PWD = /data/zengsheng/works/c++/algorithm_c/Autograd-cpp
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1017/vscode-ipc-a9f4d07d-95e3-4fa1-8f38-1058e75a02fc.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 41)
+link_librarys := -lstdc++ -ldl -lopenblas
+# makefile (from 'Makefile', line 18)
+cu_objs := 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/zengsheng
+# makefile (from 'Makefile', line 89)
+LD_LIBRARY_PATH := /data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = zengsheng
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from 'Makefile', line 12)
+cpp_objs := objs/main.cpp.o
+# environment
+XDG_SESSION_ID = 786
+# environment
+USER = zengsheng
+# makefile (from 'Makefile', line 6)
+objdir := objs
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := objs/main.cpp.o
+# makefile (from 'Makefile', line 49)
+cpp_compile_flags := -std=c++11 -w -g -O0 -m64 -fPIC -fopenmp -pthread -Isrc -Ilean/OpenBLAS0.3.17/include
+# makefile (from 'Makefile', line 4)
+workdir := workspace
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# makefile (from 'Makefile', line 7)
+stdcpp := c++11
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 3)
+name := pro
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.2.221 49230 22
+# environment
+MAIL = /var/mail/zengsheng
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/zengsheng/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 2)
+cc := g++
+# environment
+CONDA_PYTHON_EXE = /home/zengsheng/anaconda3/bin/python
+# makefile (from 'Makefile', line 35)
+library_path_export := /data/zengsheng/works/c++/algorithm_c/Autograd-cpp/lean/OpenBLAS0.3.17/lib
+# environment
+LC_PAPER = zh_CN.UTF-8
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# makefile (from 'Makefile', line 39)
+include_paths := -Isrc -Ilean/OpenBLAS0.3.17/include
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# makefile (from 'Makefile', line 34)
+empty := 
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=16/199=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 210993437): 17 files, no impossibilities.
+# src (device 2049, inode 210993541): No files, no impossibilities so far.
+
+# 17 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+objs/%.cpp.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 69):
+	@echo Compile CXX $<
+	@mkdir -p $(dir $@)
+	@$(cc) -c $< -o $@ $(cpp_compile_flags)
+
+objs/%.cpp.mk: src/%.cpp
+#  recipe to execute (from 'Makefile', line 76):
+	@echo Compile depends C++ $<
+	@mkdir -p $(dir $@)
+	@$(cc) -M $< -MF $@ -MT $(@:.cpp.mk=.cpp.o) $(cpp_compile_flags)
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+/usr/include/c++/7/bits/char_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/locale_facets.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cstdlib:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/iosfwd:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/streambuf:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/atomicity.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/initializer_list:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/uses_allocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 09:18:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/cxxabi_init_exception.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/wctype.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/stdio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/ostream_insert.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+all: pro
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+/usr/include/c++/7/stdexcept:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/linux/errno.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 09:18:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/alloc_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean run pro
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_construct.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/shared_ptr_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/predefined_ops.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/streambuf.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cctype:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cerrno:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_relops.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/basic_string.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/allocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/istream:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/postypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/new_allocator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/numeric_traits.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/string:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/hash_bytes.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ios:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/iostream:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/debug/debug.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/_G_config.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/unique_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/wchar.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/alloc_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/string_conversions.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-21 11:03:29.613459065
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_tempbuf.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/basic_string.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/functional_hash.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/select.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/istream.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cstdint:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/system_error:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/ios_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/functexcept.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/features.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_iterator_base_types.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/std_abs.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+objs/main.cpp.o: src/main.cpp src/main.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_tempbuf.h /usr/include/c++/7/bits/stl_raw_storage_iter.h /usr/include/c++/7/ext/concurrence.h /usr/include/c++/7/bits/uses_allocator.h /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h /usr/include/c++/7/bits/shared_ptr_base.h /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/refwrap.h /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/shared_ptr_atomic.h /usr/include/c++/7/bits/atomic_base.h /usr/include/c++/7/bits/atomic_lockfree_defines.h /usr/include/c++/7/backward/auto_ptr.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-08-22 11:24:53.877936571
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := objs/main.cpp.o
+# automatic
+# % := 
+# automatic
+# * := main
+# automatic
+ 
+# + := src/main.cpp src/main.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_tempbuf.h /usr/include/c++/7/bits/stl_raw_storage_iter.h /usr/include/c++/7/ext/concurrence.h /usr/include/c++/7/bits/uses_allocator.h /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h /usr/include/c++/7/bits/shared_ptr_base.h /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/refwrap.h /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/shared_ptr_atomic.h /usr/include/c++/7/bits/atomic_base.h /usr/include/c++/7/bits/atomic_lockfree_defines.h /usr/include/c++/7/backward/auto_ptr.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp /usr/include/stdc-predef.h /usr/include/c++/7/iostream /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h /usr/include/c++/7/ostream /usr/include/c++/7/ios /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h /usr/include/c++/7/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h /usr/include/c++/7/bits/exception_ptr.h /usr/include/c++/7/bits/exception_defines.h /usr/include/c++/7/bits/cxxabi_init_exception.h /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/bits/stl_algobase.h /usr/include/c++/7/bits/functexcept.h /usr/include/c++/7/bits/cpp_type_traits.h /usr/include/c++/7/ext/type_traits.h /usr/include/c++/7/ext/numeric_traits.h /usr/include/c++/7/bits/stl_pair.h /usr/include/c++/7/bits/stl_iterator_base_types.h /usr/include/c++/7/bits/stl_iterator_base_funcs.h /usr/include/c++/7/debug/assertions.h /usr/include/c++/7/bits/stl_iterator.h /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/c++/7/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h /usr/include/c++/7/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype /usr/include/ctype.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string /usr/include/c++/7/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h /usr/include/c++/7/ext/new_allocator.h /usr/include/c++/7/bits/ostream_insert.h /usr/include/c++/7/bits/cxxabi_forced.h /usr/include/c++/7/bits/stl_function.h /usr/include/c++/7/backward/binders.h /usr/include/c++/7/bits/range_access.h /usr/include/c++/7/initializer_list /usr/include/c++/7/bits/basic_string.h /usr/include/c++/7/ext/alloc_traits.h /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/c++/7/cerrno /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/c++/7/bits/functional_hash.h /usr/include/c++/7/bits/basic_string.tcc /usr/include/c++/7/bits/locale_classes.tcc /usr/include/c++/7/system_error /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf /usr/include/c++/7/bits/streambuf.tcc /usr/include/c++/7/bits/basic_ios.h /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h /usr/include/c++/7/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h /usr/include/c++/7/bits/locale_facets.tcc /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_construct.h /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/bits/stl_tempbuf.h /usr/include/c++/7/bits/stl_raw_storage_iter.h /usr/include/c++/7/ext/concurrence.h /usr/include/c++/7/bits/uses_allocator.h /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/tuple /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h /usr/include/c++/7/bits/shared_ptr_base.h /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/refwrap.h /usr/include/c++/7/ext/aligned_buffer.h /usr/include/c++/7/bits/shared_ptr_atomic.h /usr/include/c++/7/bits/atomic_base.h /usr/include/c++/7/bits/atomic_lockfree_defines.h /usr/include/c++/7/backward/auto_ptr.h /usr/include/c++/7/cmath /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/17=6%
+#  recipe to execute (from 'Makefile', line 69):
+	@echo Compile CXX $<
+	@mkdir -p $(dir $@)
+	@$(cc) -c $< -o $@ $(cpp_compile_flags)
+
+# Not a target:
+/usr/include/c++/7/ext/aligned_buffer.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/locale_classes.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/nested_exception.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/errno.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/type_traits:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/alloca.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/localefwd.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_uninitialized.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/time.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/exception:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_pair.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/asm-generic/errno-base.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 09:18:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stringfwd.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/backward/auto_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/endian.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/type_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/array:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/locale_classes.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/shared_ptr_atomic.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+ 
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+pro: workspace/pro
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/ptr_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/locale.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/backward/binders.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_iterator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/7/typeinfo:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/pthread.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/streambuf_iterator.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cstdio:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+run: pro
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@cd $(workdir) && ./$(name) $(run_args)
+
+objs/main.cpp.mk: src/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-08-22 14:52:32.432743351
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 76):
+	@echo Compile depends C++ $<
+	@mkdir -p $(dir $@)
+	@$(cc) -M $< -MF $@ -MT $(@:.cpp.mk=.cpp.o) $(cpp_compile_flags)
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/ctype.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/clocale:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/sysmacros.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_raw_storage_iter.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 82):
+	@rm -rf $(objdir) $(workdir)/$(name)
+	@rm -rf $(workdir)/mnist
+
+# Not a target:
+/usr/include/c++/7/debug/assertions.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/refwrap.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/exception.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ext/concurrence.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cwctype:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/tuple:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/move.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/memory:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-22 13:55:40.014084861
+#  File has been updated.
+#  Successfully updated.
+
+workspace/pro: objs/main.cpp.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-22 11:24:53.949935056
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 64):
+	@echo Link $@
+	@mkdir -p $(dir $@)
+	@$(cc) $^ -o $@ $(link_flags)
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/ostream:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/cxxabi_forced.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/shared_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/stdint.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/select.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/asm-generic/errno.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 09:18:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_function.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/concept_check.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/basic_ios.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/invoke.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/utility:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/exception_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/math.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/ostream.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cwchar:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ 
+/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/locale_facets.tcc:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/allocated_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/basic_ios.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/stl_algobase.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/atomic_base.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/stdc-predef.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/new:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/cmath:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/sched.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/range_access.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/cpp_type_traits.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/memoryfwd.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/7/bits/exception_ptr.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-12-04 22:25:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-24 20:53:44
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=208/1024=20%, Rehash=0, Collisions=58/430=13%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (0) / strings = 230 / storage = 8245 B / avg = 35 B
+# current buf: size = 8162 B / used = 126 B / count = 10 / avg = 12 B
+# other used: total = 83 B / count = 220 / avg = 0 B
+# other free: total = 43 B / max = 43 B / min = 43 B / avg = 43 B
+
+# strcache performance: lookups = 257 / hit rate = 10%
+# hash-table stats:
+# Load=230/8192=3%, Rehash=0, Collisions=9/257=4%
+# Finished Make data base on Mon Aug 22 14:52:32 2022
+
+ 

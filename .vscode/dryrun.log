@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/data/zengsheng/works/c++/algorithm_c/Autograd-cpp'
+Compile depends C++ src/main.cpp
+ 
+echo Compile CXX src/main.cpp
+mkdir -p objs/
+g++ -c src/main.cpp -o objs/main.cpp.o -std=c++11 -w -g -O0 -m64 -fPIC -fopenmp -pthread -Isrc -Ilean/OpenBLAS0.3.17/include
+make: Leaving directory '/data/zengsheng/works/c++/algorithm_c/Autograd-cpp'
+ 
